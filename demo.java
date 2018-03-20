@@ -22,8 +22,7 @@ JobExecutionException {
 		if(!isNext) {
 			return;
 		}
-		
-logger.info("------------TimedTask-------start-------------");
+
 		isNext = false;
 		try {
 			SchedulerContext context = 
